@@ -12,9 +12,9 @@ namespace GitHubTest.Tests
     public class CalculatorTests
     {
         [TestMethod()]
-        public void AddTestFail()
+        public void AddTestAreNotEqual()
         {
-            Assert.Fail();
+            Assert.AreNotEqual(1, 2);
         }
 
         [TestMethod()]
