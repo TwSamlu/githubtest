@@ -12,9 +12,23 @@ namespace GitHubTest.Tests
     public class CalculatorTests
     {
         [TestMethod()]
-        public void AddTest()
+        public void AddTestFail()
         {
             Assert.Fail();
         }
+
+        [TestMethod()]
+        public void AddTestIsTrue()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod()]
+        public void AddTestIsFalse()
+        {
+            Assert.IsFalse(false);
+        }
     }
+
+
 }
