@@ -8,5 +8,6 @@ namespace GitHubTest
 {
     public class Product
     {
+        public int ID { get; set; }
     }
 }
